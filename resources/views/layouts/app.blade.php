@@ -36,6 +36,7 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
+                        @if(auth()->user())
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                 <i class="fa fa-bell"></i>
@@ -50,7 +51,7 @@
                                 @endforeach
                             </ul>
                         </li>
-
+                        @endif
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
