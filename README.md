@@ -9,11 +9,11 @@ Please check the official laravel installation guide for server requirements bef
 
 Clone the repository
 
-    git clone https://github.com/badalkumar259/addweb.git
+    git clone https://github.com/badalkumar259/add-web.git
 
 Switch to the repo folder
 
-    cd addweb
+    cd add-web
 
 Install all the dependencies using composer
 
